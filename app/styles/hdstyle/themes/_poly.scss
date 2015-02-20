@@ -1,0 +1,29 @@
+// =============================================================================
+// Poly Theme Styles
+// =============================================================================
+
+// Grid display background colors
+
+$poly-grid: (
+	gc-24 : #DEF4E5,
+	gc-16  : #DCE0F2,
+	gc-14  : #DCF0EF,
+	gc-12  : #FFE3DB,
+	gc-8  : #F8EDD0,
+	gc-10  : #EAEBEC,
+	gc-3  : #F5E9FE,
+	gc-4  : #C5E2CE,
+	gc-5  : #C8E8CF,
+	gc-6  : #D6EEF5,
+	gc-7  : #F6EEF5,
+	gc-17  : #F2E0F2,
+	gc-19  : #F9E9F9
+);
+
+// Generate Poly grid display classes
+
+@each $value, $color in $poly-grid {
+	.theme__poly .#{$value} {
+		background-color: $color;
+	}
+}
