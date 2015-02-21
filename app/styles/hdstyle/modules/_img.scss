@@ -12,6 +12,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: $br--round;
+		max-width: 100%;
 		@include mq(medium) {
 			margin-top: em(24px);
 		}

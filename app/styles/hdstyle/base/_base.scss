@@ -11,9 +11,9 @@ body {
 	color: palette(grey);
 	@include establish-baseline($base-font-size);
 	//@include debug-vertical-alignment();
-  //font-size: $base-font-size;
+  font-size: $base-font-size;
   font-family: $font-family--primary;
-  //line-height: ($base-line-height/$base-font-size);
+  line-height: ($base-line-height/$base-font-size);
 }
 // Lists
 
@@ -77,11 +77,12 @@ h1 {
 h2 {
 	//@extend %hdln-sec;
 	@include adjust-font-size-to(36px);
-	margin-bottom: rhythm(1, 36px);
+	margin-bottom: rhythm(1, 24px);
 }
 
 h3 {
 	font-size: em(18px);
+	margin-bottom: rhythm(1, 34px);
 }
 
 h4 {

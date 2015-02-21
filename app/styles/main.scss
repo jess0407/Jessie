@@ -14,9 +14,10 @@ header {
   background-color: #fff;
   .hd-logo {
     font-size:2em;
+    font-family: $font-family--logo;
     .hd {
       position: fixed;
-      top: 20px;
+      top: 5px;
       left: 20px;
     }
   }
@@ -40,7 +41,7 @@ $icons-layout: smart;
 .social {
   display: flex;
   flex-direction: row;
-  padding: 0 30%;
+  justify-content: center;
   a {
     display: block;
     width: em(32px);
@@ -69,7 +70,10 @@ $icons-layout: smart;
   }
 }
 
-
+.avatar {
+  width: 50%;
+  margin: 0 auto;
+}
 /*Landing*/
 
 #landing {
@@ -77,4 +81,34 @@ $icons-layout: smart;
   h3 {
     text-align: center;
   }
+}
+
+/*Projects*/
+#projects{
+  .tag {
+    font-size: 1.5em;
+  }
+
+  #hdui .screenshot {
+    background-image: url('../img/hdui.png');
+  }
+
+  #hddemo .screenshot {
+    background-image: url('../img/hddemo.png');
+  }
+
+  .screenshot {
+    background-repeat: no-repeat;
+    background-size: em(250px);
+    background-position: center;
+    height: em(300px);
+    span {
+      float: right;
+      font-family: $font-family--logo;
+    }
+  }
+  .details {
+    padding: 5px 10px;
+  }
+
 }

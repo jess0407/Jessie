@@ -8,6 +8,9 @@
   @import url($font-url--google);
 }
 
+@if variable-exists(font-url--cursive) {
+  @import url($font-url--cursive);
+}
 // Calculate em values
 
 @function em($target, $context: $base-font-size) {
