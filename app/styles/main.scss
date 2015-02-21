@@ -4,11 +4,30 @@
 // bower:scss
 // endbower
 
+/* header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hd-logo {
+  font-size:2em;
+  display: block;
+  margin-top: 1.25em;
+  margin-bottom: 1.875em;
+  span {
+    height:100%;
+  }
+}
+
 /* Soical icons*/
 // Social Icon sprites
 $icons-layout: smart;
 @import "icons/*.png";
 @include all-icons-sprites;
+
 
 .social {
   display: flex;
@@ -25,12 +44,7 @@ $icons-layout: smart;
   }
 }
 
-.hd-logo {
 
-  span {
-  font-size: 1.8em;
-  }
-}
 
 /*Landing*/
 
