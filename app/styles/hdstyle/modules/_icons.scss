@@ -17,8 +17,8 @@
 		@extend %icn--ui;
 		@include img-replace("menu.svg", 30px, 30px);
 		position: absolute;
-		right: 5%;
-		top: 5%;
+		right: 15px;
+		top: 5px;
 	}
 
 	// Close

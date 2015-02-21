@@ -6,3 +6,15 @@
   display: inline-block;
   padding: em(20px) em(50px);
 }
+
+.hidden-mobile {
+  @include mq(small) {
+    display: none;
+  }
+}
+
+.show-mobile {
+  @include mq(small) {
+    display: block;
+  }
+}

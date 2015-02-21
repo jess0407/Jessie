@@ -7,20 +7,28 @@
 /* header */
 
 header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.hd-logo {
-  font-size:2em;
-  display: block;
-  margin-top: 1.25em;
-  margin-bottom: 1.875em;
-  span {
-    height:100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+  .hd-logo {
+    font-size:2em;
+    .hd {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+    }
+  }
+  nav {
+    position: fixed;
+    display:inline-block;
+    top:20px;
+    right: 20px;
   }
 }
+
+
 
 /* Soical icons*/
 // Social Icon sprites
@@ -44,12 +52,28 @@ $icons-layout: smart;
   }
 }
 
+.btn-hd {
+  background: transparent;
+  outline: none;
+  border: 2px solid black;
+  color: black;
+  font-size: .8em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
 
 
 /*Landing*/
 
 #landing {
-  margin-top: 5em;
+  margin-top: 8em;
   h3 {
     text-align: center;
   }
