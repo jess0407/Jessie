@@ -3,3 +3,40 @@
 
 // bower:scss
 // endbower
+
+/* Soical icons*/
+// Social Icon sprites
+$icons-layout: smart;
+@import "icons/*.png";
+@include all-icons-sprites;
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30%;
+  a {
+    display: block;
+    width: em(32px);
+    height: em(32px);
+    @include hide-text;
+  }
+  li {
+    margin: 0 1em;
+  }
+}
+
+.hd-logo {
+
+  span {
+  font-size: 1.8em;
+  }
+}
+
+/*Landing*/
+
+#landing {
+  margin-top: 5em;
+  h3 {
+    text-align: center;
+  }
+}

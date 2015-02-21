@@ -2,9 +2,21 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>HDsite</title>
+    <meta name="description" content="Helium Dragon website ">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FACEBOOK -->
+    <meta property="og:title" content="Helium Dragon | Make you app soar!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.heliumdragon.com">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Helium Dragon">
+    <!--<meta property="fb:admins" content="/assets/images/vendor/modernizr-2.6.2.min.js?v=ca46f4b687">-->
+    <meta property="og:description" content="Helium Dragon will help you build magic apps.">
+
+    <title>Helium Dragon</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -24,8 +36,100 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <!-- Navigation -->
 
-    
+    <header class="grid" role="banner">
+      <a href="" class="gc-8 hd-logo">
+        <span class="is-collapsed-mobile">Helium Dragon</span>
+        <span class="is-displayed-mobile">HD</span>
+      </a>
+      <nav class="navbar gc-16" role="navigation">
+        <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
+          <b class="srt">Toggle</b>
+        </span>
+        <ul class="nav is-collapsed-mobile">
+          <li class="nav__item"><a href="">Jessie</a></li>
+          <li class="nav__item"><a href="">Jay</a></li>
+          <li class="nav__item"><a href="">Projects</a></li>
+          <li class="nav__item"><a href="">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Landing page -->
+
+    <section id="landing" class="grid">
+      <h2>We are Helium Dragon</h2>
+      <p>Front-end web developers</p>
+      <div class="gc-12 centered">
+        <img src="img/jessie.jpg" alt="Jessie Shi" class="img--avatar">
+        <h3>Jessie Shi</h3>
+        <a href="#jessie">bio link</a>
+        <ul class="social">
+          <li><a href="" class="icons-mail">Email</a></li>
+          <li><a href="" class="icons-github">Github</a></li>
+          <li><a href="" class="icons-linkedin">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="gc-12 centered">
+        <img src="img/jay.jpg" alt="Jay Davis" class="img--avatar">
+        <h3>Jay Davis</h3>
+        <a href="">bio link</a>
+        <ul class="social">
+          <li><a href="" class="icons-mail">Email</a></li>
+          <li><a href="" class="icons-github">Github</a></li>
+          <li><a href="" class="icons-linkedin">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bio Jessie -->
+    <section class="bio grid" id="jessie">
+      <div>
+        <h2>Jessie's bio</h2>
+        <img src="" alt="Jessie Shi small">
+        <p>Hello, I'm Jessie ...</p>
+        <p>Available for hire: true</p>
+        <h3>Skills</h3>
+
+        <a href="">Get my CV</a>
+        <a href="">See my projects</a>
+      </div>
+    </section>
+    <!-- Bio Jay -->
+    <section class="bio grid" id="jay">
+      <h2>Jay's bio</h2>
+      <img src="" alt="Jay Davis small">
+      <p>Hello, I'm Jay ...</p>
+      <p>Available for hire: true</p>
+      <h3>Skills</h3>
+
+      <a href="">Get my CV</a>
+      <a href="">See my projects</a>
+    </section>
+    <!-- Projects -->
+    <section class="grid" id="projects">
+      <h1>Projects</h1>
+      <div class="project" id="hdui">
+        <h2><a href="http://heliumdragon.com/hdui/#/">HDUI</a></h2>
+        <img src="" alt="HDUI screenshot">
+        <p>Description</p>
+        <p>Tech logos</p>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="grid" id="contact">
+      <h1>Contact us</h1>
+      <form class="form ng-pristine ng-valid">
+        <label class="form__label--hidden" for="name">Name:</label>
+        <input class="form__input" type="text" id="name" placeholder="Name">
+        <label class="form__label--hidden" for="email">Email:</label>
+        <input class="form__input" type="email" id="email" placeholder="email@website.com">
+        <label class="form__label--hidden" for="msg">Message:</label>
+        <textarea class="form__input" id="msg" placeholder="Message..." rows="7"></textarea>
+        <input class="btn--default" type="submit" value="Submit">
+    </section>
+    <!-- Footer/copyright -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
