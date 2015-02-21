@@ -38,20 +38,20 @@
     <![endif]-->
     <!-- Navigation -->
 
-    <header class="grid" role="banner">
-      <a href="" class="gc-8 hd-logo">
-        <span class="is-collapsed-mobile">Helium Dragon</span>
-        <span class="is-displayed-mobile">HD</span>
+    <header role="banner">
+      <a href="#landing" class="hd-logo">
+        <span class="hd">Helium Dragon</span>
+        <!--<span class="is-displayed-mobile hd">HD</span>-->
       </a>
-      <nav class="navbar gc-16" role="navigation">
+      <nav role="navigation">
         <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
           <b class="srt">Toggle</b>
         </span>
-        <ul class="nav is-collapsed-mobile">
-          <li class="nav__item"><a href="">Jessie</a></li>
-          <li class="nav__item"><a href="">Jay</a></li>
-          <li class="nav__item"><a href="">Projects</a></li>
-          <li class="nav__item"><a href="">Contact us</a></li>
+        <ul class="is-collapsed-mobile">
+          <li class="nav__item"><a href="#jessie">Jessie</a></li>
+          <li class="nav__item"><a href="#jay">Jay</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item"><a href="#contact">Contact us</a></li>
         </ul>
       </nav>
     </header>
@@ -59,16 +59,16 @@
     <!-- Landing page -->
 
     <section id="landing" class="grid">
-      <h2>We are Helium Dragon</h2>
+      <h2>Making web apps soar! Find out more!</h2>
       <p>Front-end web developers</p>
       <div class="gc-12 centered">
         <img src="img/jessie.jpg" alt="Jessie Shi" class="img--avatar">
         <h3>Jessie Shi</h3>
         <a href="#jessie">bio link</a>
         <ul class="social">
-          <li><a href="" class="icons-mail">Email</a></li>
-          <li><a href="" class="icons-github">Github</a></li>
-          <li><a href="" class="icons-linkedin">LinkedIn</a></li>
+          <li><a href="mailto:jessie@heliumdragon.com" class="icons-mail">Email</a></li>
+          <li><a href="https://github.com/jess0407" class="icons-github">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/jessieshilondon" class="icons-linkedin">LinkedIn</a></li>
         </ul>
       </div>
       <div class="gc-12 centered">
@@ -76,16 +76,16 @@
         <h3>Jay Davis</h3>
         <a href="">bio link</a>
         <ul class="social">
-          <li><a href="" class="icons-mail">Email</a></li>
-          <li><a href="" class="icons-github">Github</a></li>
-          <li><a href="" class="icons-linkedin">LinkedIn</a></li>
+          <li><a href="mailto:jay@heliumdragon.com" class="icons-mail">Email</a></li>
+          <li><a href="https://github.com/jDman" class="icons-github">Github</a></li>
+          <li><a href="https://uk.linkedin.com/in/JayDavisHD
+" class="icons-linkedin">LinkedIn</a></li>
         </ul>
       </div>
     </section>
-
-    <!-- Bio Jessie -->
-    <section class="bio grid" id="jessie">
-      <div>
+    <section class="bio grid" >
+      <!-- Bio Jessie -->
+      <div id="jessie" class="gc-12">
         <h2>Jessie's bio</h2>
         <img src="" alt="Jessie Shi small">
         <p>Hello, I'm Jessie ...</p>
@@ -95,17 +95,18 @@
         <a href="">Get my CV</a>
         <a href="">See my projects</a>
       </div>
-    </section>
-    <!-- Bio Jay -->
-    <section class="bio grid" id="jay">
-      <h2>Jay's bio</h2>
-      <img src="" alt="Jay Davis small">
-      <p>Hello, I'm Jay ...</p>
-      <p>Available for hire: true</p>
-      <h3>Skills</h3>
+      <!-- Bio Jay -->
+      <div  id="jay" class="gc-12">
+        <h2>Jay's bio</h2>
+        <img src="" alt="Jay Davis small">
+        <p>Hello, I'm Jay ...</p>
+        <p>Available for hire: true</p>
+        <h3>Skills</h3>
 
-      <a href="">Get my CV</a>
-      <a href="">See my projects</a>
+        <a href="">Get my CV</a>
+        <a href="">See my projects</a>
+      </div>
+
     </section>
     <!-- Projects -->
     <section class="grid" id="projects">
@@ -115,6 +116,7 @@
         <img src="" alt="HDUI screenshot">
         <p>Description</p>
         <p>Tech logos</p>
+        <button class="btn-hd">I'm some text</button>
       </div>
     </section>
     <!-- Contact -->
