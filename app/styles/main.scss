@@ -24,6 +24,10 @@ header {
   nav {
     position: fixed;
     display:inline-block;
+    @media screen and (min-width: 769px) {
+      top: 20px;
+      right: 20px;
+    }
     #toggle {
       top:20px;
       right: 20px;
