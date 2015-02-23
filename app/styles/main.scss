@@ -56,9 +56,7 @@ $icons-layout: smart;
 
 
 .social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   a {
     display: block;
     width: em(32px);
@@ -66,7 +64,8 @@ $icons-layout: smart;
     @include hide-text;
   }
   li {
-    margin: 0 1em;
+    display: inline-block;
+    margin: 0 auto;
   }
 }
 
