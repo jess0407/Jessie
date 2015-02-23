@@ -71,8 +71,8 @@ footer {
 
 h1 {
 	//@extend %hdln-prim;
-	@include adjust-font-size-to(48px);
-	margin-bottom: rhythm(1, 48px);
+	@include adjust-font-size-to(36px);
+	margin-bottom: rhythm(1, 36px);
 }
 
 h2 {

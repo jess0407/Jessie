@@ -6,7 +6,7 @@
   var menuToggle = function () {
     if(navMenu.hasClass(isCollapsed)){
       navMenu.removeClass(isCollapsed);
-      navMenu.addClass(isDisplayed)
+      navMenu.addClass(isDisplayed);
     } else {
       navMenu.removeClass(isDisplayed);
       navMenu.addClass(isCollapsed);
