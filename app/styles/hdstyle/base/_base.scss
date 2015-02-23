@@ -8,6 +8,7 @@
 }
 
 body {
+	background-color: #FEFBFA;
 	color: palette(grey);
 	@include establish-baseline($base-font-size);
 	//@include debug-vertical-alignment();
@@ -76,12 +77,14 @@ h1 {
 
 h2 {
 	//@extend %hdln-sec;
-	@include adjust-font-size-to(36px);
+	@include adjust-font-size-to(24px);
 	margin-bottom: rhythm(1, 24px);
 }
 
 h3 {
+	font-family: $font-family--logo;
 	font-size: em(18px);
+	letter-spacing: 0.05em;
 	margin-bottom: rhythm(1, 34px);
 }
 

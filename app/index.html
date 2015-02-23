@@ -49,8 +49,7 @@
           <b class="srt">Toggle</b>
         </span>
         <ul class="is-collapsed-mobile">
-          <li class="nav__item"><a href="#jessie">Jessie</a></li>
-          <li class="nav__item"><a href="#jay">Jay</a></li>
+          <li class="nav__item"><a href="#Bios">Bios</a></li>
           <li class="nav__item"><a href="#projects">Projects</a></li>
           <li class="nav__item"><a href="#contact">Contact us</a></li>
         </ul>
@@ -65,7 +64,7 @@
         <div class="avatar"><img src="img/jessie.jpg" alt="Jessie Shi" class="img--avatar"></div>
         <h3>Jessie Shi</h3>
         <ul class="social">
-          <li><a href="mailto:jessie@heliumdragon.com" class="icons-mail">Email</a></li>
+          <li><a href="mailto:jessie@heliumdragon.com" class="icons-mail" id="emailJessie">Email</a></li>
           <li><a href="https://github.com/jess0407" class="icons-github">Github</a></li>
           <li><a href="https://www.linkedin.com/in/jessieshilondon" class="icons-linkedin">LinkedIn</a></li>
         </ul>
@@ -74,19 +73,20 @@
         <div class="avatar"><img src="img/jay.jpg" alt="Jay Davis" class="img--avatar"></div>
         <h3>Jay Davis</h3>
         <ul class="social">
-          <li><a href="mailto:jay@heliumdragon.com" class="icons-mail">Email</a></li>
+          <li><a href="mailto:jay@heliumdragon.com" class="icons-mail" id="emailJay">Email</a></li>
           <li><a href="https://github.com/jDman" class="icons-github">Github</a></li>
           <li><a href="https://uk.linkedin.com/in/JayDavisHD
 " class="icons-linkedin">LinkedIn</a></li>
         </ul>
       </div>
     </section>
-    <section class="bio grid" >
+    <section class="bio grid" id="Bios">
       <!-- Bio Jessie -->
       <div id="jessie" class="gc-12">
         <h2>Jessie's bio</h2>
-        <img src="" alt="Jessie Shi small">
-        <p>Hello, I'm Jessie ...</p>
+        <p>I’m Jessie, co-founder of Helium Dragon. Curious, bright, energetic and ambitious, a thinker and a doer. A project manager turned software developer drawn by the ever changing and exciting web technology scene and infinite possibilities in the industry.</p>
+        <p>Since 2012, I have been working in the front-end development world. Currently on track to be a full stack javascript developer. I am interested in various subjects and enjoy researching into them.</p>
+        <p>My vision for myself in 20 years is a polymath professor, passing on knowledge and wisdom to next generation.</p>
         <p>var availableForHire = true;</p>
         <h3>Skills</h3>
         <p>
@@ -116,9 +116,8 @@
         <a href=""> projects</a>
       </div>
       <!-- Bio Jay -->
-      <div  id="jay" class="gc-12">
+      <div id="jay" class="gc-12">
         <h2>Jay's bio</h2>
-        <img src="" alt="Jay Davis small">
         <p>I’m Jay, founder of Helium Dragon where our mission is simple; create stunning user interfaces for our clients’ web apps. I have expert knowledge of HTML5, CSS3 and JavaScript with 5 years commercial experience.</p>
         <p>In that time, I have worked on a variety of websites and applications at digital agencies, gaming companies and non-profit organisations.</p>
         <p>When not coding, I can be found working out at the gym or catching the latest blockbuster at the cinema.</p>
@@ -159,7 +158,7 @@
       <div class="grid">
         <div class="gc-8" id="hdui">
           <div class="screenshot">
-            <span><a href="http://heliumdragon.com/hdui/#/">UI</a></span>
+            <span><a href="http://heliumdragon.com/hdui/#/" target="_blank">UI</a></span>
           </div>
           <div class="details">
             <p>An in-house 24 grid ui library</p>
@@ -177,7 +176,7 @@
 
         <div class="gc-8" id="hddemo">
           <div class="screenshot">
-            <span><a href="http://heliumdragon.com/hddemo/#/">Demo</a></span>
+            <span><a href="http://heliumdragon.com/hddemo/#/" target="_blank">Demo</a></span>
           </div>
 
           <div class="details">
@@ -199,7 +198,7 @@
 
         <div class="gc-8" id="life++">
           <div class="screenshot">
-            <span><a href="http://news.heliumdragon.co.uk/">Life++</a></span>
+            <span><a href="http://news.heliumdragon.co.uk/" target="_blank">Life++</a></span>
           </div>
 
           <div class="details">
@@ -223,7 +222,7 @@
 
     </section>
     <!-- Contact -->
-    <section class="grid" id="contact">
+    <!-- <section class="grid" id="contact">
       <h1>Contact us</h1>
       <form class="form ng-pristine ng-valid">
         <label class="form__label--hidden" for="name">Name:</label>
@@ -234,9 +233,16 @@
         <textarea class="form__input" id="msg" placeholder="Message..." rows="7"></textarea>
         <input class="btn--default" type="submit" value="Submit">
         <button class="btn-hd">I'm some text</button>
-    </section>
+    </section> -->
     <!-- Footer/copyright -->
+    <footer class="panel--padded--centered grid">
+      <span class="grid">&copy; Helium Dragon 2015</span>
+      <ul class="social gc-12 centered">
+        <li><a href="https://www.linkedin.com/company/helium-dragon-ltd" target="_blank" class="icons-linkedin">LinkedIn</a></li>
+        <li><a href="mailto:jay@heliumdragon.com" class="icons-mail">Email</a></li>
+      </ul>
 
+    </footer>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

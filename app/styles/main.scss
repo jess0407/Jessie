@@ -29,8 +29,6 @@ header {
   }
 }
 
-
-
 /* Soical icons*/
 // Social Icon sprites
 $icons-layout: smart;
@@ -110,5 +108,10 @@ $icons-layout: smart;
   .details {
     padding: 5px 10px;
   }
+}
 
+/*Bio*/
+.bio .devicons{
+  font-size: 2em;
+  color: red;
 }
