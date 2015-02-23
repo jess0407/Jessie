@@ -24,8 +24,23 @@ header {
   nav {
     position: fixed;
     display:inline-block;
-    top:20px;
-    right: 20px;
+    #toggle {
+      top:20px;
+      right: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    ul {
+      @media screen and (max-width: 768px) {
+        margin-top: 4.5em;
+      }
+    }
+    li {
+      @media screen and (max-width: 768px) {
+        background-color: #fff;
+      }
+    }
   }
 }
 
@@ -111,7 +126,9 @@ $icons-layout: smart;
 }
 
 /*Bio*/
-.bio .devicons{
-  font-size: 2em;
-  color: red;
+.bio {
+  .devicons {
+    font-size: 2em;
+    color: red;
+  }
 }
