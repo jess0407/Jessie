@@ -98,6 +98,7 @@ $icons-layout: smart;
 
 /*Projects*/
 #projects{
+  margin-top: 5em;
   .tag {
     font-size: 1.5em;
   }
@@ -116,7 +117,6 @@ $icons-layout: smart;
     background-position: center;
     height: em(300px);
     span {
-      float: right;
       font-family: $font-family--logo;
     }
   }
@@ -126,9 +126,12 @@ $icons-layout: smart;
 }
 
 /*Bio*/
-.bio {
-  .devicons {
-    font-size: 2em;
-    color: red;
-  }
+
+.bio .devicons {
+  font-size: 2em;
+  color: #C12841;
+}
+
+.biocontent {
+  height: em(300px);
 }
