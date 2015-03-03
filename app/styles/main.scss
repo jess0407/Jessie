@@ -139,15 +139,18 @@ $icons-layout: smart;
 
 .bio .devicons {
   font-size: 2em;
-  color: #C12841;
+  color: #4cb2aa;
 }
 
 .biocontent {
-  height: em(300px);
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.skills {
-  //margin-top: 4.5em;
+footer{
+  margin-top: 3em;
+  padding: 3em;
+  p {
+    text-align: center;
+  }
 }
