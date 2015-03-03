@@ -26,11 +26,7 @@ header {
     @media screen and (max-width: 768px) {
       width: 100%;
     }
-    ul {
-      @media screen and (max-width: 768px) {
-        margin-top: 4.5em;
-      }
-    }
+
     li {
       @media screen and (max-width: 768px) {
         background-color: #fff;
@@ -84,14 +80,13 @@ $icons-layout: smart;
 /*Landing*/
 
 #landing {
-  margin-top: 8em;
+  margin-top: 7em;
   h3 {
     text-align: center;
   }
   .callout{
     text-align: center;
-    margin-bottom: 3em;
-    padding: em(30px);
+    padding: em(15px);
     color: #4CB2AA;
     a {
       color: #4CB2AA;
@@ -109,18 +104,30 @@ $icons-layout: smart;
   }
 }
 
+/*Bio*/
+
+#bio {
+  margin-top: 3em;
+  .devicons {
+   font-size: 2em;
+   color: #4cb2aa;
+   }
+}
+.biocontent {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 /*Projects*/
-#projects{
+.portfolio {
   margin-top: 5em;
   .tag {
     font-size: 1.5em;
   }
-
   img {
     max-height: em(400px);
   }
-
   .screenshot {
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,17 +142,6 @@ $icons-layout: smart;
   }
 }
 
-/*Bio*/
-
-.bio .devicons {
-  font-size: 2em;
-  color: #4cb2aa;
-}
-
-.biocontent {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 
 footer{
   margin-top: 3em;
